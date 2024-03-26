@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /backend/
+Disallow: /distributions/
+Disallow: /stats/
+Disallow: /source.php
+Disallow: /search.php
+Disallow: /mod.php
+Disallow: /manual/add-note.php
