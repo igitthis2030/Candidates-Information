@@ -1,0 +1,494 @@
+/**
+ *
+ *  COLORS:       | HEX     |
+ * ---------------+---------+
+ *  light-blue    | #EAE8F6 |
+ * ---------------+---------+
+ *  medium-blue   | #513FB5 |
+ * ---------------+---------+
+ *  dark-blue     | #231A7E |
+ * ---------------+---------+
+ *
+ */
+
+
+html {
+  background: #f9f9f9;
+  color: #212121;
+}
+
+abbr {
+  border-color: #513FB5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  color:#212121
+}
+header.title,
+h1:after,
+h2:after,
+h3:after {
+  display:table;
+  width:100%;
+  content:" ";
+  margin-top:-1px;
+  border-bottom:1px dotted;
+}
+.title h1:after,
+.title h2:after,
+.title h3:after {
+  display:none;
+}
+
+a:link {
+  color: #513FB5;
+}
+
+a:visited {
+  color: #9C27B0;
+}
+a:hover,
+a:focus {
+  color: #4CAF50;
+  border-color: #4CAF50;
+  outline:0;
+}
+
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+dl.qandaentry {
+  border-color:#000;
+}
+
+h1.refname {
+  color: #231A7E;
+}
+
+
+.interfacename a,
+.fieldsynopsis .type,
+.methodsynopsis .type,
+.constructorsynopsis .type {
+  color:#4CAF50;
+}
+
+.fieldsynopsis .modifier,
+.methodsynopsis .modifier,
+.constructorsynopsis .modifier {
+  color:#212121;
+}
+
+.classsynopsis {
+  color: #4D4D4D;
+}
+
+.docs .classsynopsisinfo_comment {
+  color:#f80;
+}
+
+.title a,
+.title {
+  color: #231A7E;
+}
+.title time {
+  color: #212121;
+}
+
+.methodname b,
+.methodname strong,
+.methodname a,
+.classsynopsis .classname,
+.parameter {
+    color: #513FB5;
+}
+
+.initializer,
+.initializer code {
+  color:#936;
+}
+
+.dc-description {
+  color:#737373;
+}
+
+/* {{{ Warnings, Tips and Notes */
+#flash-message .success {
+  background:#E6F2D9;
+  border-color: #CCE6B3;
+}
+#flash-message .info,
+div.tip {
+  border-color: #2196F3;
+}
+blockquote.note {
+  border-color: #9E9E9E;
+}
+div.caution {
+  border-color: #FFC107;
+}
+div.warning {
+  /* TODO: fix this color */
+  border-color:#F44336;
+}
+#flash-message .error {
+  background:#F4DFDF;
+  border-color: #EABFBF;
+}
+
+.docs .classsynopsis,
+.refsect1 .dc-description,
+.docs .sect1 .dc-description {
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.15);
+  border-radius:0 0 2px 2px;
+}
+#flash-message .error a,
+div.warning a:link,
+div.warning a:visited,
+div.warning h2,
+div.warning h3 {
+  color:#936;
+}
+#flash-message .success a,
+#flash-message a:hover,
+#flash-message a:focus,
+div.warning a:hover,
+div.warning a:focus {
+  color:#4CAF50;
+  border-color:#4CAF50;
+}
+
+.refentry .caution h1 {
+  font-size:1.125rem;
+  line-height:1.5rem;
+  margin:0;
+  display:inline;
+  color:#212121;
+}
+.refentry .caution h1::after {
+  border:0;
+}
+/* }}} */
+
+
+/* {{{ Navbar */
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #212121;
+}
+.navbar .nav > .active > a {
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+.navbar .brand,
+.navbar .nav > li > a {
+  color: #EAE8F6;
+  border:0;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.navbar .brand:hover,
+.navbar .nav > li > a:hover,
+.navbar .brand:focus,
+.navbar .nav > li > a:focus {
+  color: #fff;
+}
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.navbar .nav .active > a, 
+.navbar .nav .active > a:hover,
+.navbar .nav .active > a:focus {
+  color: #fff;
+  background-color: #231A7E;
+}
+.navbar .navbar-search .search-query {
+  background-color: #fff;
+  color: #212121;
+  text-shadow: 0 1px 0 #fff;
+  border:0;
+  border-radius:2px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+}
+.navbar .navbar-search .search-query:focus {
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+}
+.navbar .navbar-search .search-query:-moz-placeholder {
+  color: #999;
+}
+.navbar .navbar-search .search-query:-ms-input-placeholder {
+  color: #999;
+}
+.navbar .navbar-search .search-query::-webkit-input-placeholder {
+  color: #999;
+}
+.navbar {
+  border-color:#231A7E;
+  background:#513FB5;
+  box-shadow: 0 .25em .25em  rgba(0,0,0,.1);
+}
+.navbar .brand {
+  color: #fff;
+}
+.navbar a {
+  text-shadow: 0 1px 0 #fff;
+}
+
+/* }}} */
+
+
+/* {{{ User notes */
+#usernotes .count {
+  background-color: #231A7E;
+  color: #fff;
+  border-radius: 4px;
+}
+#usernotes .note .name {
+  color: #212121;
+}
+#usernotes .note .date {
+  color: #9E9E9E;
+}
+#usernotes .note .name:hover + .genanchor {
+  color: black;
+}
+#usernotes .note .text {
+  transition: opacity 0.4s;
+}
+#usernotes .note .votes .tally {
+  color: #212121;
+}
+#usernotes .note .votes a {
+  transition: border 0.4s;
+}
+/* }}} */
+
+
+/* {{{ Tables */
+.doctable,
+.segmentedlist {
+  border-color: #ccc;
+}
+.doctable thead tr,
+.segmentedlist thead tr {
+  border-color: #C5CAE9;
+  border-bottom-color: #513FB5;
+}
+.doctable th,
+.segmentedlist th {
+  background-color: #C5CAE9;
+}
+.doctable tr,
+.segmentedlist tr {
+  border-color: #C5CAE9;
+}
+.doctable tbody tr:nth-child(odd),
+.segmentedlist tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+.doctable tbody tr:nth-child(even),
+.segmentedlist tbody tr:nth-child(even) {
+  background-color: #EAE8F6;
+}
+/* }}} */
+
+
+/* {{{ Syntax highlighting (and other similar boxes) */
+#usernotes .note .text,
+.example-contents > [class$="code"],
+.example-contents.screen {
+  background-color: #FFF;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);
+  border-radius: 0 0 2px 2px;
+}
+.refsect1 .example-contents > [class$="code"],
+.refsect1 .example-contents.screen {
+  background-color: #fff;
+}
+.docs .classsynopsis,
+.refsect1 .dc-description,
+.docs .sect1 .dc-description {
+    background:#fff;
+    border-color: #d9d9d9;
+}
+.phpcode span.html {
+  background-color: transparent;
+}
+.phpcode span.comment {
+  color: #231A7E;
+  background-color: transparent;
+}
+div.phpcode span.default {
+  color: #513FB5;
+  background-color: transparent;
+}
+div.phpcode span.keyword {
+  color: #4CAF50;
+  background-color: transparent;
+}
+div.phpcode span.string {
+  color: #c33;
+  background-color: transparent;
+}
+
+.para var,
+.simpara var
+{
+  background-color: #E0E0E0;
+  border-radius: 2px;
+  color: #212121;
+  padding: 2px 4px;
+  white-space: nowrap;
+  font-style: normal;
+  font: normal 14px / 1.46 "Source Code Pro", monospace; 
+}
+
+var.reset
+{
+  background: none !important;
+  padding: 0 !important;
+  font-size: 1em !important;
+}
+/* }}} */
+
+
+
+/* {{{ The anchor for section headers */
+#layout-content a.genanchor:link,
+#layout-content a.genanchor:visited {
+    color: transparent;
+    border-bottom: none;
+}
+#layout-content a.genanchor:hover,
+#layout-content a.genanchor:focus {
+    color: #212121;
+    border-bottom: none;
+}
+/* }}} */
+
+
+.warn {
+  border-color: #231A7E;
+  background-color: #fff;
+  border-radius: 0 0 2px 2px;
+}
+
+pre.info {
+  background-color: #efefef;
+  border-color: #ddd;
+}
+
+aside.tips div.border {
+    display:none;
+}
+aside.tips a {
+  border-bottom:1px dotted;
+}
+aside.tips .panel > a:after {
+  content:" ";
+  display:block;
+  border-bottom:1px dotted #666;
+}
+aside.tips .panel > a:hover:after {
+  border-color:#231A7E;
+}
+aside.tips a:hover,
+aside.tips a:focus {
+  color:#231A7E;
+  border-color:#231A7E;
+}
+
+.soft-deprecation-notice {
+  color: #212121;
+  border-color: #eecdde;
+  background-color: #f9ecf2;
+}
+.soft-deprecation-notice h1.title {
+  color: #454e55;
+}
+.soft-deprecation-notice blockquote.sidebar {
+  color: #660000;
+  border-color: #660;
+}
+
+
+/* {{{ Breadcrumbs */
+#breadcrumbs {
+  background-color:#E0E0E0;
+  color: #999;
+}
+/* }}} */
+
+
+/* {{{ Layout menu Left-hand sidebar */
+.layout-menu ul.child-menu-list li:first-child a {
+  border-top-color:#666;
+}
+.layout-menu ul.child-menu-list li.current a {
+  color:#231A7E;
+  border-bottom-color:#231A7E;
+}
+.layout-menu ul.child-menu-list a {
+  border-color: #666;
+}
+/* }}} */
+
+
+/* {{{ ElePHPants */
+div.elephpants img {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+div.elephpants:hover img {
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+div.elephpants img:hover,
+div.elephpants img:focus {
+  opacity: 1;
+}
+/* }}} */
+
+
+.mirror {
+	position: relative;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 5px;
+}
+.mirror .title img {
+	position: absolute;
+	right: 0px;
+}
+.mirror .title {
+	font-size: 1.4em;
+	position: relative;
+}
+
+.headsup {
+  padding:.25rem 0;
+  height:1.5rem;
+  border-bottom:.125rem solid #696;
+  background-color: #9c9;
+  color:#fff;
+}
+
+.headsup,
+.headsup a {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+/* vim: set ts=2 sw=2 et: */
